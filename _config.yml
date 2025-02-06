@@ -1,5 +1,5 @@
 title: Adil Sahab
-logo: "/images/adil_photo.jpeg?raw=true"
+logo: /images/adil_photo.jpeg
 #description: text below image
 #show_downloads: true
 theme: jekyll-theme-minimal
