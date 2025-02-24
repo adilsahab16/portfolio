@@ -4,7 +4,7 @@
 
 ### Visualising air pollution data using R-Shiny App
 
-A R-Shiny app which visualises air pollution data collected across multiple sites in the Czech Republic from 2013 to 2019. The app is available [here](https://adil-sahab-16.shinyapps.io/Shinyapps_io/)
+A R-Shiny app which visualises air pollution data collected across multiple sites in the Czech Republic from 2013 to 2019. The app is available [here](https://adil-sahab-16.shinyapps.io/Shinyapps_io/).
 
 <img src="assets/img/air_pollution_viz.png" />
 
