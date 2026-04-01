@@ -6,8 +6,7 @@
 
 A natural language analytics chatbot for querying a food loss and GHG emissions database across four public sources (FAO, World Bank, PIK, EDGAR), cleaned and modelled as part of original thesis research. Ask a question in plain English; the agentic loop selects the right tool, runs parameterised SQL, and returns a data-driven answer with an interactive chart. The project has two parallel goals: build something analytically useful, and learn how Claude and the Anthropic API work in practice — tool calling and the agentic loop.
 
-Requirements written before any code: a full PRD converted into a living `CLAUDE_CONTEXT.md` that directed every Claude Code session, and each phase committed and tested before the next began. Every architectural choice is traceable to a documented decision.`DATA_MODE` environment variable controls whether the app loads from `data/raw/` (full dataset,
-local only) or `data/sample/` (curated regional subset, committed to repo for the live demo).
+Requirements written before any code: a full PRD converted into a living `CLAUDE_CONTEXT.md` that directed every Claude Code session, and each phase committed and tested before the next began. Every architectural choice is traceable to a documented decision.`DATA_MODE` environment variable controls whether the app loads from full dataset or curated regional subset (used in the live demo).
 
 **[[Live Demo]](https://adilsahab16-food-waste-analytics-chatbot.streamlit.app) · [[GitHub]](https://github.com/adilsahab16/food-waste-analytics-chatbot)**
 
